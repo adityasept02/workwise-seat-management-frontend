@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { TextField, Button, Container, Typography } from "@mui/material";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://workwise-seat-management-backend.onrender.com";
 
 const Auth = ({ setToken }) => {
   const [isLogin, setIsLogin] = useState(true);
